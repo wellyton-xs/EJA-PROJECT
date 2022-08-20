@@ -2,50 +2,55 @@
   margin:0;
 }
 
-.e2_2 {
+a{
+  text-decoration: none;
+  margin: 48px;
+}
+
+a:hover {
+  color: rgb(99, 38, 197);
+}
+
+.main {
   overflow: hidden;
 }
-.e2_2 {
+.main {
   background-color: rgba(255, 255, 255, 1);
-  width: 100vwlive;
+  width: 100vw;
   height: 2738px;
   position: absolute;
 }
-.e2_3 {
-  width: 1440px;
+
+.header {
+  width: 100%;
+  align-items: center;
+  display: block;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin-top: 57px;
+
+}
+
+.link {
+  color: rgba(255, 255, 255, 1);
+  width: 64px;
+  height: 24px;
+  position: relative;
+  font-family: Inter;
+  text-align: left;
+  font-size: 20px;
+}
+
+.img {
+  width: 100%;
   height: 1024px;
   position: absolute;
   left: 0px;
   top: 0px;
-  background-image: url(/assets/images/61633c_1a978187a146432486ed2d34b4fc1d74_mv2_1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  object-fit: cover;
 }
-.e5_21 {
-  color: rgba(255, 255, 255, 1);
-  width: 98px;
-  height: 24px;
-  position: absolute;
-  left: 1228px;
-  top: 57px;
-  font-family: Inter;
-  text-align: left;
-  font-size: 20px;
-  letter-spacing: 0;
-}
-.e5_20 {
-  color: rgba(255, 255, 255, 1);
-  width: 103px;
-  height: 24px;
-  position: absolute;
-  left: 1077px;
-  top: 57px;
-  font-family: Inter;
-  text-align: left;
-  font-size: 20px;
-  letter-spacing: 0;
-}
-.e2_4 {
+.nome_titulo {
   color: rgba(255, 255, 255, 1);
   width: 784px;
   height: 72px;
@@ -57,7 +62,7 @@
   font-size: 52px;
   letter-spacing: 0;
 }
-.e5_6 {
+.frase_pf {
   color: rgba(105.18749848008156, 105.18749848008156, 105.18749848008156, 1);
   width: 729px;
   height: 150px;
@@ -69,27 +74,27 @@
   font-size: 20px;
   letter-spacing: 0;
 }
-.e5_7 {
+.botao_form {
   background-color: rgba(78.3939278125763, 18.99218648672104, 175.3125, 1);
   width: 293px;
   height: 60px;
   position: absolute;
   left: 77px;
   top: 656px;
+  border: none;
+  cursor: pointer;
 }
-.e5_9 {
+.botao_form:hover{
+  background-color: rgb(65, 9, 157);
+}
+.text {
   color: rgba(255, 255, 255, 1);
-  width: 286px;
-  height: 22px;
-  position: absolute;
-  left: 80px;
-  top: 675px;
   font-family: Inter;
   text-align: center;
   font-size: 20px;
   letter-spacing: 0;
 }
-.e5_13 {
+.section_2 {
   width: 809px;
   height: 691px;
   position: absolute;
@@ -99,17 +104,17 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.e5_14 {
+.desc {
   border: 17px solid rgba(78.3939278125763, 18.99218648672104, 175.3125, 1);
 }
-.e5_14 {
+.desc {
   width: 696px;
   height: 811px;
   position: absolute;
   left: 691px;
   top: 1105px;
 }
-.e5_15 {
+.desc_tit {
   color: rgba(0, 0, 0, 1);
   width: 538px;
   height: 108px;
@@ -121,7 +126,7 @@
   font-size: 52px;
   letter-spacing: 0;
 }
-.e5_16 {
+.desc_txt {
   color: rgba(0, 0, 0, 1);
   width: 497px;
   height: 557px;
@@ -133,43 +138,8 @@
   font-size: 20px;
   letter-spacing: 0;
 }
-.e5_17 {
-  color: rgba(255, 255, 255, 1);
-  width: 64px;
-  height: 24px;
-  position: absolute;
-  left: 534px;
-  top: 57px;
-  font-family: Inter;
-  text-align: left;
-  font-size: 20px;
-  letter-spacing: 0;
-}
-.e5_19 {
-  color: rgba(255, 255, 255, 1);
-  width: 144px;
-  height: 24px;
-  position: absolute;
-  left: 885px;
-  top: 57px;
-  font-family: Inter;
-  text-align: left;
-  font-size: 20px;
-  letter-spacing: 0;
-}
-.e5_18 {
-  color: rgba(255, 255, 255, 1);
-  width: 191px;
-  height: 24px;
-  position: absolute;
-  left: 646px;
-  top: 57px;
-  font-family: Inter;
-  text-align: left;
-  font-size: 20px;
-  letter-spacing: 0;
-}
-.e5_22 {
+
+.qdr_cz {
   background-color: rgba(
     170.26562601327896,
     170.26562601327896,
@@ -182,7 +152,7 @@
   left: 0px;
   top: 2051px;
 }
-.e5_23 {
+.integrantes {
   color: rgba(255, 255, 255, 1);
   width: 294px;
   height: 45px;
@@ -194,7 +164,7 @@
   font-size: 38px;
   letter-spacing: 0;
 }
-.e5_24 {
+.int_linha {
   background-color:rgba(78.3939278125763, 18.99218648672104, 175.3125, 1);
   width: 315px;
   height: 10px;
@@ -202,7 +172,7 @@
   left: 562px;
   top: 2109px;
 }
-.e5_25 {
+.qdr_1 {
   background-color: rgba(
     25.853630304336548,
     22.78176873922348,
@@ -215,7 +185,7 @@
   left: 240px;
   top: 2207px;
 }
-.e5_26 {
+.qdr_2 {
   background-color: rgba(
     85.0000025331974,
     38.0000015348196,
@@ -228,7 +198,7 @@
   left: 480px;
   top: 2207px;
 }
-.e5_27 {
+.qdr_3 {
   background-color: rgba(
     144.00000661611557,
     122.00000032782555,
@@ -241,7 +211,7 @@
   left: 720px;
   top: 2207px;
 }
-.e5_28 {
+.qdr_4 {
   background-color: rgba(
     184.00000423192978,
     167.00000524520874,
@@ -254,7 +224,7 @@
   left: 960px;
   top: 2207px;
 }
-.e5_49 {
+.julio {
   color: rgba(255, 255, 255, 1);
   width: 174px;
   height: 28px;
@@ -305,7 +275,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.e5_38 {
+.bt_1 {
   background-color: rgba(255, 255, 255, 1);
   width: 174px;
   height: 53px;
@@ -345,7 +315,7 @@
   font-size: 18px;
   letter-spacing: 0;
 }
-.e5_42 {
+.bt_3 {
   background-color: rgba(255, 255, 255, 1);
   width: 174px;
   height: 53px;
@@ -365,7 +335,7 @@
   font-size: 18px;
   letter-spacing: 0;
 }
-.e5_40 {
+.bt_2 {
   background-color: rgba(255, 255, 255, 1);
   width: 174px;
   height: 53px;
@@ -385,7 +355,7 @@
   font-size: 18px;
   letter-spacing: 0;
 }
-.e5_46 {
+.boaz {
   color: rgba(255, 255, 255, 1);
   width: 174px;
   height: 28px;
@@ -397,7 +367,7 @@
   font-size: 24px;
   letter-spacing: 0;
 }
-.e5_47 {
+.andreza {
   color: rgba(255, 255, 255, 1);
   width: 174px;
   height: 28px;
@@ -409,7 +379,7 @@
   font-size: 24px;
   letter-spacing: 0;
 }
-.e5_48 {
+.geane {
   color: rgba(255, 255, 255, 1);
   width: 174px;
   height: 28px;
@@ -421,7 +391,7 @@
   font-size: 24px;
   letter-spacing: 0;
 }
-.e5_51 {
+.txt_1 {
   color: rgba(255, 255, 255, 1);
   width: 186px;
   height: 180px;
@@ -433,7 +403,7 @@
   font-size: 16px;
   letter-spacing: 0;
 }
-.e5_52 {
+.txt_2 {
   color: rgba(255, 255, 255, 1);
   width: 186px;
   height: 180px;
@@ -445,7 +415,7 @@
   font-size: 16px;
   letter-spacing: 0;
 }
-.e5_53 {
+.txt_3 {
   color: rgba(255, 255, 255, 1);
   width: 186px;
   height: 180px;
@@ -457,7 +427,7 @@
   font-size: 16px;
   letter-spacing: 0;
 }
-.e5_54 {
+.txt_4 {
   color: rgba(255, 255, 255, 1);
   width: 186px;
   height: 180px;
