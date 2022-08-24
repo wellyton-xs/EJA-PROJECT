@@ -1,5 +1,10 @@
+body{
+  background: #e5e5e5;
+}
+
 *{
   margin:0;
+  font-family: Inter;
 }
 
 a{
@@ -37,9 +42,10 @@ a:hover {
   width: 64px;
   height: 24px;
   position: relative;
-  font-family: Inter;
+  font-weight: 400px;
   text-align: left;
   font-size: 20px;
+  line-height: 37px;
 }
 
 .img {
@@ -57,7 +63,7 @@ a:hover {
   position: absolute;
   left: 77px;
   top: 393px;
-  font-family: Inter;
+  
   text-align: left;
   font-size: 52px;
   letter-spacing: 0;
@@ -69,7 +75,7 @@ a:hover {
   position: absolute;
   left: 77px;
   top: 469px;
-  font-family: Inter;
+  
   text-align: left;
   font-size: 20px;
   letter-spacing: 0;
@@ -89,7 +95,7 @@ a:hover {
 }
 .text {
   color: rgba(255, 255, 255, 1);
-  font-family: Inter;
+  
   text-align: center;
   font-size: 20px;
   letter-spacing: 0;
@@ -121,7 +127,7 @@ a:hover {
   position: absolute;
   left: 769px;
   top: 1169px;
-  font-family: Inter;
+  
   text-align: center;
   font-size: 52px;
   letter-spacing: 0;
@@ -133,7 +139,7 @@ a:hover {
   position: absolute;
   left: 843px;
   top: 1328px;
-  font-family: Inter;
+  
   text-align: left;
   font-size: 20px;
   letter-spacing: 0;
@@ -159,7 +165,7 @@ a:hover {
   position: absolute;
   left: 573px;
   top: 2064px;
-  font-family: Inter;
+  
   text-align: center;
   font-size: 38px;
   letter-spacing: 0;
@@ -231,7 +237,7 @@ a:hover {
   position: absolute;
   left: 993px;
   top: 2374px;
-  font-family: Inter;
+  
   text-align: center;
   font-size: 24px;
   letter-spacing: 0;
@@ -290,12 +296,19 @@ a:hover {
   position: absolute;
   left: 302px;
   top: 2615px;
-  font-family: Inter;
+  
   text-align: center;
   font-size: 18px;
   letter-spacing: 0;
 }
-.e5_44 {
+
+button{
+  border: none;
+}
+button:hover{
+  background-color: rgb(65, 9, 157);
+}
+.bt_4 {
   background-color: rgba(255, 255, 255, 1);
   width: 174px;
   height: 53px;
@@ -310,7 +323,7 @@ a:hover {
   position: absolute;
   left: 1022px;
   top: 2615px;
-  font-family: Inter;
+  
   text-align: center;
   font-size: 18px;
   letter-spacing: 0;
@@ -330,7 +343,7 @@ a:hover {
   position: absolute;
   left: 782px;
   top: 2615px;
-  font-family: Inter;
+  
   text-align: center;
   font-size: 18px;
   letter-spacing: 0;
@@ -350,7 +363,7 @@ a:hover {
   position: absolute;
   left: 542px;
   top: 2615px;
-  font-family: Inter;
+  
   text-align: center;
   font-size: 18px;
   letter-spacing: 0;
@@ -362,7 +375,7 @@ a:hover {
   position: absolute;
   left: 273px;
   top: 2374px;
-  font-family: Inter;
+  
   text-align: center;
   font-size: 24px;
   letter-spacing: 0;
@@ -374,7 +387,7 @@ a:hover {
   position: absolute;
   left: 513px;
   top: 2374px;
-  font-family: Inter;
+  
   text-align: center;
   font-size: 24px;
   letter-spacing: 0;
@@ -386,7 +399,7 @@ a:hover {
   position: absolute;
   left: 749px;
   top: 2378px;
-  font-family: Inter;
+  
   text-align: center;
   font-size: 24px;
   letter-spacing: 0;
@@ -398,7 +411,7 @@ a:hover {
   position: absolute;
   left: 267px;
   top: 2419px;
-  font-family: Inter;
+  
   text-align: center;
   font-size: 16px;
   letter-spacing: 0;
@@ -410,7 +423,7 @@ a:hover {
   position: absolute;
   left: 507px;
   top: 2421px;
-  font-family: Inter;
+  
   text-align: center;
   font-size: 16px;
   letter-spacing: 0;
@@ -422,7 +435,7 @@ a:hover {
   position: absolute;
   left: 743px;
   top: 2422px;
-  font-family: Inter;
+  
   text-align: center;
   font-size: 16px;
   letter-spacing: 0;
@@ -434,7 +447,7 @@ a:hover {
   position: absolute;
   left: 987px;
   top: 2423px;
-  font-family: Inter;
+  
   text-align: center;
   font-size: 16px;
   letter-spacing: 0;
