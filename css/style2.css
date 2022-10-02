@@ -1,0 +1,47 @@
+*{
+  font-family: Inter;
+  color: #ffff;
+  margin: 0;
+}
+html, body{
+  width: 100vw;
+  height: 100vh;
+  scroll-behavior: smooth;
+  background-color: #202020;
+}
+header{
+  background-color: #202020;
+  text-align: left;
+  margin-left: 30px;
+}
+section{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/09.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+}
+#section{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; 
+  margin-top: 150px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/workspace-1280538_1920.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  text-align: right;
+  margin-right: 5px;
+  
+}
+.text{
+  padding-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+p{
+  width: 800px;
+  height: 100px;
+}
