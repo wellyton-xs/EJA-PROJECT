@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto EJA</title>
+  <link rel="stylesheet" href="/public/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+
+  <style>
+    *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2, 100vh);
+  gap: 2rem;
+}
+
+html, body{
+  width: 100vw;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+main{
+  width: 100%;
+}
+
+#home{
+  display: block;
+  background-image: url(/js/assets/61633c_1a978187a146432486ed2d34b4fc1d74_mv2_1.png);
+  background-repeat: no-repeat;
+  background-size: 100%; 
+  height:742px;
+}
+
+#desc{
+  margin-top:60px;
+  border: 10px;
+  border-style: solid;
+  border-color: #4E13AF;
+  padding: 20px;
+  width:100%;
+  height:70%;
+}
+
+.text{
+  font-size:1vw;
+}
+
+
+#img2{
+  margin-top: 135px;
+}
+
+#about{
+  height: 1200px;
+}
+
+:root {
+  --header-height: 4.5rem; 
+  /* colors */
+  --hue: 243;
+  /* HSL color mode */
+  --base-color: hsl(var(--hue) 36% 57%);
+  --base-color-second: hsl(var(--hue) 65% 88%);
+  --base-color-alt: hsl(var(--hue) 57% 53%);
+  --title-color: hsl(var(--hue) 41% 10%);
+  --text-color: hsl(0 0% 46%);
+  --text-color-light: hsl(0 0% 98%);
+  --body-color: hsl(0 0% 98%);
+  --site-width: 980px;
+  --above-all-z-index: 100000;
+  --maxViewportSize: 1920
+}
+
+nav {
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav ul li {
+  text-align: center;
+}
+
+nav ul li a {
+  transition: color 0.2s;
+  position: relative;
+}
+
+nav ul li a:hover {
+  color: var(--base-color);
+}
+
+nav ul li a::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: var(--base-color);
+
+  position: absolute;
+  left: 0;
+  bottom: -1.5rem;
+
+  transition: width 0.2s;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+.menu{
+  margin-left: auto; 
+  margin-right: 40px;
+}
+a{
+  text-decoration:none;
+  font-weight: 400px;
+  margin-left: 40px;
+}
+a:link{
+  color: white;
+}
+a:visited{
+  color: white;
+}
+a:hover{
+  color: rgb(99, 38, 197);
+}
+
+.title, .botao_home{
+  margin-bottom:20px;
+  color: #FFFFFF;
+}
+.frase{
+  color: #696969;
+}
+
+
+.home-text{
+  margin-left:77px;
+}
+
+.img_home{
+  width: 100%;
+  height: auto;
+}
+
+.botao_home{
+  background-color: rgba(78.3939278125763, 18.99218648672104, 175.3125, 1);
+  border: none;
+  cursor: pointer;
+  width: 293px;
+  height: 50px;
+  margin-top: 37px;
+}
+
+.botao_home:hover{
+  background-color: rgb(65, 9, 157);
+}
+
+.f-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 75vh);
+  gap: 2rem;
+}
+
+#footer{
+  background-color: #5526E0;
+  width:100%;
+  
+}
+
+.footer-text{
+  text-align:center;
+  padding:15px;
+}
+
+button:hover{
+  background-color: rgb(65, 9, 157);
+}
+
+.info{
+  margin:51px;
+}
+#img_footer{
+  width: 244px;
+  height: 246px;
+}
+  </style>
+</head>
+
+<body>
+    <main>
+      <section class="section" id="home">
+        <div>
+          <header id="header">
+            <nav>
+              <div class="menu">
+                <a href="#home">INICIO</a>
+                <a href="#about">SOBRE O PROJETO</a>
+                <a href="#members">INTEGRANTES</a>
+              </div>
+            </nav>
+          </header>
+        </div>
+        <div class="text home-text">
+          <h2 class="title">Caminhando pelo Eco-Digital</h2>
+
+          <p class="frase">Não é no silêncio que os homens se fazem, mas na palavra, no trabalho, na ação-reflexão.
+            <br><br> Paulo Feire
+          </p>
+          <button class="botao_home"><strong>ACESSE O QUESTIONÁRIO</strong></button>
+        </div>
+      </section>
+
+      <section id="about" class="grid">
+          <img src="/assets/aprendizado_por_computador_1.png" id="img2" class="grid">
+        <div class="text" id="desc">
+          
+          <p class="desc text">
+            <h2>(Breve descrição do projeto)</h2>
+              A sociedade e as instituições de ensino, cada vez mais, precisam usar das tecnologias da Informática para
+              mediar a aprendizagem e todos os tipos de trabalhos sociais. Os alunos da EJA são adultos que,
+              biologicamente,
+              tiveram o desenvolvimento de suas competências sociais construídas e valorizam seus conhecimentos prévios de
+              vida. No entanto, fazem parte de um público que não completou, abandonou ou não teve acesso à educação
+              formal
+              na idade apropriada. Criando uma contradição entre a formação escolar e a consciência de cotidiano; logo,
+              desenvolveram um perfil cognitivo que os fazem diferentes dos estudantes do curso superior e dos
+              adolescentes
+              do curso médio. O projeto tem como objetivo criar uma aplicação tecnológica que, por meio de hiperlink,
+              possibilita vários percursos, a partir do conhecimento prévio, possibilitar um estudo sobre a evolução da
+              história da Informática, baseado na noção de cognição em Piaget, Aprendizado significativa de Ausubel,
+              mediação de Vygotsky e no Método Paulo Freire.
+          </p>
+        </div>
+      </section>
+
+    </main>
+
+    <footer id="footer" class="f-grid">
+      <div>
+        <img id="img_footer" src="/assets/pngwing.com.png" height="125px" class="footer-item">
+      </div>
+      
+      <div class="footer-text">
+        <p>
+          O site tem como objetivo desenvolver uma aplicação tecnológica que serve para mediar, por hipertexto, o ensino
+          da evolução da Computação considerando o conhecimento prévio de uma turma EJA
+          das escolas de Princesa Isabel e circunvizinha
+        </p>
+        <p class="info">
+          Para mais informações sobre o projeto acesse o SAIBA MAIS
+        </p>
+        <button class="botao" onclick="window.location.href = 'more.html'"><strong>SAIBA MAIS</strong></button>
+      </div>
+    </footer>
+</body>
+
+</html>
